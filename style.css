@@ -58,7 +58,7 @@
 
  h1 {
    color: #f1be32;
-   font-size: min(5vw, 1.2em);
+   font-size: min(2vw, 1.2em);
    text-align: center;
  }
 
@@ -80,6 +80,7 @@
 
  nav>ul>li {
    color: #dfdfe2;
+    font-size: min(2vw, 1.2em);
    margin: 0 0.2rem;
    padding: 0.2rem;
    display: block;
@@ -135,8 +136,7 @@
  .info label,
  .info input {
    display: inline-block;
-   /* text-align: right; */
- }
+   }
 
  .info input {
    width: 50%;
@@ -150,7 +150,6 @@
  }
 
  .question-block {
-   /* text-align: left; */
    display: block;
    width: 100%;
    margin-top: 20px;
@@ -175,6 +174,10 @@
  .answers-list {
    list-style: none;
    padding: 0;
+ }
+ textarea{
+  resize: both;
+  max-width: 350px;
  }
 
  button {
